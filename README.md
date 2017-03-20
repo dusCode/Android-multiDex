@@ -8,9 +8,10 @@
 
 **注意：buildToolsVersion要高于21.1**
 配置如下：
-// defaultConfig
+// defaultConfig  
 multiDexEnabled true
-// dependencies
+// dependencies  
+
 compile files('libs/android-support-multidex.jar')
 
 ###  在Gradle中配置好之后，我们还需要在代码中加入支持multidex的功能，有三种方案可选
